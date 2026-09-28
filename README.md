@@ -7,4 +7,5 @@ The methodology involves generating a Signed Distance Function (SDF) dataset by 
 A SIREN model is then trained to implicitly learn this SDF. 
 After training, the model's ability to represent the 3D geometry is evaluated by performing inference on a dense grid and reconstructing the mesh using the Marching Cubes algorithm.
 The reconstructed mesh is visualized and saved as an OBJ file.
-A key finding is the significant data compression achieved: the SIREN model, even in full precision, is considerably smaller than the original explicit mesh, with further compression realized through half-precision storage, demonstrating the efficiency of INRs for 3D asset representation.
+A key finding is the significant data compression achieved: the SIREN model, even in full precision, is considerably smaller than the original explicit mesh, with further compression realized through half-precision storage, 
+demonstrating the efficiency of INRs for 3D asset representation.
